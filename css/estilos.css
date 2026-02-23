@@ -1,0 +1,707 @@
+body,html {
+  --marrom-escuro: #816D4F;
+  --marrom-claro: #B29463;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-padding-top: 8rem;
+}
+.animate-title1,.animate-main-btn,.animate-paragraph1{
+  visibility: hidden;
+}
+::selection {
+    background-color: var(--marrom-claro);
+    color: #fff;
+}
+a{
+  text-decoration: none;
+  color: #fff;
+}
+.navbar-expand-lg{
+  background: #25242acd;
+}
+.navbar-brand img{
+  width: 150px;
+  border-radius: 50%;
+}
+.nav-link{
+  text-align: center;
+  font-size: 17px;
+  color: #fff;
+  transition: all .3s ease-in-out;
+}
+.navbar-nav .nav-link.active{
+  background: #3F2572;
+  color: #fff;
+}
+.nav-link:hover{
+  background: #3F2572;
+  transition: all .3s ease-in-out;
+  border-radius: 30px;
+  color: #fff;
+}
+.nav-link i:hover{
+  color: #fff;
+}
+span.navbar-toggler-icon i{
+  background-color: #592C1C;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  border-radius: 50%;
+}
+.bi .bi-moon-stars-fill {
+  cursor: pointer;
+  color:var(--marrom-claro);
+  font-size:16px;
+  border: 1px solid #d1d1d1;
+  padding:2px;
+  border-radius:50%;
+}
+::-webkit-scrollbar{
+	width:10px;
+}
+::-webkit-scrollbar-thumb{
+	width:10px;
+	background: #444;
+	border-radius:30px;
+}
+.title-1 {
+  font-family: "Great Vibes", cursive;
+  color: #fff;
+  text-align: left;
+  font-size: 80px;
+  margin-left: 20px;
+  text-shadow: 1px 1px 1px #00000080;
+  font-weight: 300;
+}
+.paragraph1{
+  font-family: "Great Vibes", cursive;
+  color: #444;
+  text-align: left;
+  font-size: 40px;
+  font-weight: 600;
+  margin-left: 20px;
+  font-size: 35px;
+  text-shadow: 1px 1px 1px #00000080;
+}
+
+.title-2 {
+  font-family: "Barlow", sans-serif;
+  color: #fff;
+  text-align: center;
+  margin-top: 60px;
+  font-size: 60px;
+}
+.title-3 {
+  font-size: 28px;
+  font-family: "Barlow", sans-serif;
+}
+.paragraph-2{
+  font-family: "Barlow", sans-serif;
+  color: #fff;
+  text-align: left;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 30px;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+}
+.main-btn{
+  background: transparent;
+  border: 1px solid #fff;
+  font-size: 1.1rem;
+  font-weight: 300;
+  text-transform: capitalize;
+  border-radius: 30px;
+  color: #fff;
+  text-decoration: none;
+  transition: all .2s ease-in-out;
+}
+.main-btn:hover {
+  transition: all .2s ease-in-out;
+  background:linear-gradient(135deg, #000, #d025ff);
+  color: #fff;
+  border: solid 1px #bf9f6b;
+}
+.main-btn i {
+  color: #fff;
+}
+.main-btn i:hover {
+  transition: all.2s ease-in-out;
+  color: #25d366;
+}
+
+#servicos {
+width: 100%;
+height: 100%;
+background: #f5f5f5;
+padding-top: 50px;
+padding-bottom: 50px;
+}
+
+.title-servicos {
+  font-family: "Great Vibes", cursive;
+  font-size: 40px;
+  text-transform: capitalize;
+  margin-top: 2rem;
+  text-shadow:2px 2px 2px #D4AF37;
+}
+
+#produtos {
+width: 100%;
+height: 100%;
+padding-top: 50px;
+padding-bottom: 50px;
+background-color: #f5f5f5;
+}
+.title-produtos {
+  font-family: "Great Vibes", cursive;
+  margin-top: 2rem;
+  font-size: 40px;
+  text-transform: capitalize;
+}
+
+.title-sobre{
+  font-family: "Great Vibes", cursive;
+  font-size: 40px;
+  text-transform: capitalize;
+  color: #fff;
+  text-shadow:2px 2px 2px #D4AF37;
+}
+.text-sobre{
+  color: #fff;
+  font-family: "Barlow Regular", sans-serif;
+  font-size: 20px;
+  line-height: 21px;
+  letter-spacing: 0.6px;
+  text-shadow: 2px 2px 2px black;
+
+}
+.frase{
+  width: 100%;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background:linear-gradient(135deg, #000, #545454, #222222);
+}
+.frase p{
+  font-family: "Great Vibes", cursive;
+  font-size: 35px;
+  color: transparent;
+  -webkit-text-stroke: 1px #fff;
+}
+.frase a{
+  background: transparent;
+  border: solid 2px red;
+  border-radius: 30px;
+  padding: 8px;
+  transition: all .2s ease-in-out;
+  font-family: "Great Vibes", cursive;
+  font-size: 20px;
+  transition: all .2s ease-in-out;
+}
+.frase a:hover{
+  transition: all .2s ease-in-out;
+  background-color: #8b0000;
+}
+.frase i{
+  color: white;
+}
+.frase i:hover{
+  transition: all.2s ease-in-out;
+  color: #25d366;
+}
+.local{
+  font-size: 40px;
+  font-family: "Great Vibes", cursive;
+  text-shadow:2px 2px 2px #D4AF37;
+  color: #333;
+}
+.modal-title h2{
+  font-size: 16px;
+  color: #fff;
+  padding: 0px 10px;
+  border-radius: 10px;
+  padding: 8px;
+  font-weight: 300;
+}
+input[type=checkbox] {
+  border: 2px solid var(--marrom-claro);
+  box-shadow: none;
+}
+.card {
+  width: 100%;
+  margin: 10px;
+  border: solid 2px #7e5235;
+  transform:skew(1deg, 2deg);
+}
+.card:hover{
+  transition: all 0.2s ease-in-out;
+  border: solid 1.5px #7e5235;
+  background: #333;
+  color: #fff;
+  box-shadow: 2px 2px 2px #D4AF37;
+}
+.card-title {
+  color: #444;
+}
+.card-title:hover{
+  color: #fff;
+}
+.card-text{
+  text-align: center;
+  font-size: 16px;
+  color: #444;
+  border-radius: 30px;
+  width: 90%;
+}
+.card-text:hover{
+  color: #fff;
+}
+.offcanvas-title {
+  color: #ffffff;
+  text-align: center;
+  background-color: #444444bb;
+  padding: 8px;
+}
+.accordion-body {
+  border-radius: 15px;
+}
+input[type=checkbox]:checked,
+input[type="checkbox"]:focus {
+  background-color: var(--marrom-claro);
+  border-color: var(--marrom-claro);
+  box-shadow: none;
+  outline: none;
+}
+.banner-1 {
+  width: 100%;
+  height: 98vh;
+  background-image: linear-gradient(#00000080,#00000080),url(../img/banner-canecas.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100%, 100%;
+  border-bottom-right-radius: 30px;
+  background-attachment: fixed;
+}
+
+.banners {
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  filter: brightness(0.9);
+}
+.banners-titulo {
+  --bs-bg-opacity: .2;
+}
+
+.banner-2{
+  background-image: linear-gradient(#00000080, #00000080), url(../img/lider-foto-loja.webp);
+  background-size: cover;
+  background-position: left, center;
+  background-repeat: no-repeat;
+}
+
+.banner-3{
+  background-image: linear-gradient(#00000080, #00000080), url(../img/lider-foto-loja.webp);
+  background-size: cover;
+  background-position: left, center;
+  background-repeat: no-repeat;
+}
+.banners {
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-position: left, center;
+  background-attachment: fixed;
+  position: relative;
+  filter: brightness(0.9);
+}
+
+.banners-titulo {
+    --bs-bg-opacity: .2;
+}
+.botao-padrao{
+  background-color: #444;
+  color: #fff;
+  border: none;
+  padding: 8px;
+  border-radius: 30px;
+  margin: 0 auto;
+  box-shadow: #00000059 0px 5px 15px;
+  border-radius: 30px;
+}
+
+.botao-padrao:hover {
+  transition: all .2s ease-in-out;
+  color: #E6E0D6;
+  background:#5f5e5e;
+}
+.botao-padrao i:hover{
+   transition: all.2s ease-in-out;
+  color: #25d366;
+}
+.card-back {
+  background-image: url(../produtos/canecas/caneca-colorida-colher-vermelha-personalizada.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.card-back:hover {
+  transition: all 2s ease-in-out;
+  filter: brightness(0.9);
+}
+.card-back-1 {
+  background-image: url(../produtos/canecas/caneca-magica-preta-alca-coracao-personalizada.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.card-back-1:hover {
+  transition: all 2s ease-in-out;
+  filter: brightness(0.9);
+}
+.card-back-2 {
+  background-image: url(../produtos/moldura-70x100);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.card-back-2:hover {
+  transition: all 2s ease-in-out;
+  filter: brightness(0.9);
+}
+.input-range::-webkit-slider-thumb{
+ background-color: var(--marrom-claro);
+}
+.icons i{
+  color: #fff;
+  width: 30px;
+  cursor: pointer;
+}
+
+.icons i:hover {
+  transition: all .2s ease-in-out;
+  transform: scale(1.2);
+  color: #E6E0D6;
+}
+.accordion-button {
+  text-align: center;
+  background-color: #444444bb;
+}
+[data-bs-theme="dark"] {
+  .nav-link, .card-body, .offcanvas, .accordion, .btn {
+    --bs-nav-link-color:#fff;
+    --bs-card-color:#fff;
+    --bs-offcanvas-color: #fff;
+    --bs-body-color: #fff;
+    --bs-btn-color: #fff;
+  }
+}
+#contato{
+  width: 100%;
+  padding-top:20px;
+  padding-bottom:20px;
+}
+form {
+  margin-top: 40px;
+}
+footer {
+  background-color:#000;
+  color: #fff;
+}
+footer p {
+  font-size: 1rem;
+  font-family: "Barlow", sans-serif;
+}
+.modal-content{
+  background: #fff;
+  border: solid 3px #f29809;
+}
+.footer-cart{
+  width: 100%;
+  background-color: #0000007c;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  bottom: 0px;
+  position: fixed;
+  z-index: 40;
+}
+.footer-cart button{
+  background: transparent;
+  border: none;
+  border-radius: 30px;
+  color: white;
+}
+.modal-cart{
+  width: 100%;
+  border-radius: 30px;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 200px;
+  left: 0px;
+  z-index: 9999;
+}
+
+.cart{
+  max-height: 600px;
+  overflow-y: auto;
+  background-color: #ffffffd7;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 50px;
+  box-shadow: #4440 2px 5px 15px;
+}
+
+.cart h2{
+  font-size: 18px;
+  text-align: center;
+}
+.cart input{
+  outline: none;
+  border-radius: 30px;
+  border: solid 2px rgba(0, 0, 0, 0.5);
+}
+.cart p.text-danger{
+  display: none;
+}
+.checkout,button{
+  background: #333;
+  border: none;
+  border-radius: 30px;
+  color: #fff;
+  padding:8px;
+  margin-top: 10px;
+  box-shadow: #00000059 0px 5px 15px;
+}
+@media(max-width:1500px) {
+  .title-1{
+    font-family: "Great Vibes", cursive;
+    color: #fff;
+    text-align: left;
+    font-size: 60px;
+    z-index: 1;
+    margin-top: 30px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.397);
+  }
+  .paragraph1 {
+    font-family: "Great Vibes", cursive;
+    color: #fff;
+    font-size: 40px;
+    text-align: left;
+    margin: 0px 20px;
+    z-index: 1;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.397);
+  }
+  .main-btn{
+    background: transparent;
+    border: 1px solid #fff;
+    padding:0px 15px;
+    font-size: 1.1rem;
+    font-weight: 300;
+    text-transform: capitalize;
+    border-radius: 30px;
+    color: #fff;
+  }
+}
+/* responsividade macbook */
+@media(max-width:1280px) {
+  .title-1{
+    font-family: "Great Vibes", cursive;
+    color: #fff;
+    text-align: left;
+    font-size: 60px;
+    z-index: 1;
+    margin-top: 30px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.397);
+  }
+  .paragraph1 {
+    font-family: "Great Vibes", cursive;
+    color: #ff0000;
+    font-size: 40px;
+    text-align: left;
+    margin: 0px 20px;
+    z-index: 1;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.397);
+  }
+  .main-btn{
+    margin: 0 auto;
+    background: transparent;
+    border: 1px solid #fff;
+    padding:0px 15px;
+    font-size: 1.1rem;
+    font-weight: 300;
+    text-transform: capitalize;
+    border-radius: 30px;
+    color: #fff;
+  }
+  .cart{
+  max-height: 500px;
+  overflow-y: auto;
+  background-color: #ffffffd7;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 50px;
+  box-shadow: #8C5B3B 2px 5px 15px;
+}
+}
+/* responsividade tablet */
+@media(max-width:988px) {
+  .offcanvas-title{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .offcanvas-title img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+  }
+  .offcanvas-header{
+    background-color: #7e5235ef;
+    transition: all .2s ease-in-out;
+  }
+  .offcanvas-body{
+    background-color: #0c0c0cef;
+    transition: all .2s ease-in-out;
+  }
+  #servicos {
+    width: 100%;
+    height: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    }
+
+  .banner-1 {
+    background-image: url(../assets/mobile-home.webp);
+    width: 100%;
+    height: 98vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%, 100%;
+    background-attachment: fixed;
+  }
+  .banners {
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .banner-2{
+    background-image: url(../assets/fundo-pizzaria-mobile.webp);
+  }
+.banners-titulo {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+  .title-1{
+    font-family: "Great Vibes", cursive;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    z-index: 1;
+    margin-top: 30px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.397);
+  }
+  .paragraph1 {
+    font-family: "Great Vibes", cursive;
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    margin: 0px 20px;
+    z-index: 1;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.397);
+  }
+  .title-2 {
+    font-family: "Poetsen One", sans-serif;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+  }
+  p.paragraph-2 {
+    font-family: "Barlow", sans-serif;
+    color: #fff;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+  }
+  .main-btn{
+    margin-left:2rem;
+    background: transparent;
+    border: 1px solid #fff;
+    padding:0px 15px;
+    font-size: 1.1rem;
+    font-weight: 300;
+    text-transform: capitalize;
+    border-radius: 15px;
+    color: #fff;
+  }
+  .main-btn:hover {
+    transition: all .2s ease-in-out;
+    background-color: var(--marrom-escuro);
+  }
+  .main-btn i {
+    color: #fff;
+  }
+  .main-btn i:hover {
+    transition: all.2s ease-in-out;
+    color: #25d366;
+  }
+  .title-sobre{
+    margin-top: 40px;
+  }
+  .title-sobre{
+  font-family: "Great Vibes", cursive;
+  font-size: 40px;
+  text-transform: capitalize;
+  color: #fff;
+  text-shadow:2px 2px 2px #D4AF37;
+}
+  .paragraph-2{
+  font-family: "Barlow", sans-serif;
+  color: #fff;
+  text-align: left;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 17px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+.frase {
+  background: linear-gradient(135deg, #000000 0%, #a9a5a3 50%, #212121 100%);
+
+}
+  .frase p{
+  font-family: "Great Vibes", cursive;
+  font-size: 15px;
+  color: transparent;
+  -webkit-text-stroke: 1px #fff;
+}
+.frase a{
+  border: solid 2px #7e5235;
+  box-shadow: #2c1b13 0px 5px 15px;
+}
+.cart{
+  margin: 0 auto;
+}
+.cart{
+  max-height: 300px;
+  overflow-y: auto;
+  background-color: #ffffffd7;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 50px;
+  box-shadow: #8C5B3B 2px 5px 15px;
+}
+}
