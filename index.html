@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Líder Foto</title>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <!-- Fonte -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Estilos -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="shortcut icon" href="img/logo-otica-removebg-preview.png" type="image/x-icon">
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- Scripts (jQuery não pode ser o slim que vem do Boostrap) -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+  <!-- Progress Bar -->
+  <script src="js/progressbar.min.js"></script>
+  <!-- Parallax -->
+  <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+</head>
+<body>
+  <header>
+    <div class="container" id="nav-container">
+      <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+        <a class="navbar-brand" href="index.html">
+          <img id="logo" src="img/logo-lider-foto.png" alt="logotipo da líder-foto" title="líder-foto">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links"
+          aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link" id="home-menu" href="#">Home
+              <span class="icon"><i class="bi bi-house"></i></span>
+            </a>
+            <a class="nav-item nav-link" id="about-menu" href="#">A Lider foto
+              <span class="icon"><i class="bi bi-sunglasses"></i></span>
+            </a>
+            <a class="nav-item nav-link" id="services-menu" href="#">Serviços
+              <span class="icon"><i class="bi bi-gear"></i></span>
+            </a>
+            <a class="nav-item nav-link" id="team-menu" href="#">Time
+              <span class="icon"><i class="bi bi-people"></i></span>
+            </a>
+            <a class="nav-item nav-link" href="produtos.html">Produtos
+              <span class="icon"><i class="bi bi-layers"></i></span>
+            </a>
+            <a class="nav-item nav-link" id="contact-menu" href="#">Contato
+              <span class="icon"><i class="bi bi-phone"></i></span>
+            </a>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <div class="container-fluid">
+      <!-- slider -->
+      <div id="mainSlider" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#mainSlider" data-slide-to="0" class="active"></li>
+          <li data-target="#mainSlider" data-slide-to="1"></li>
+          <li data-target="#mainSlider" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="slider/almofada/almofada.png" class="d-block w-100" alt="óculos na areia dá praia" title="óculos de sol">
+            <div class="carousel-caption d-md-block">
+              <h2>Temos almofadas</h5>
+                <p><span class="highlighter">personalizadas para os seus melhores momentos</span></p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/oculos-viajem.jepg" class="d-block w-100" alt="mulher usando óculos fazendo viajem" title="óculos viajem">
+            <div class="carousel-caption d-md-block">
+              <h2>óculos bonitos, e modernos</h5>
+                <p><span class="highlighter">trazem um charme a mais para o seu dia á dia</span></p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/moca-oculos.jpg" class="d-block w-100" alt="moça usando óculos" title="moça de óculos">
+            <div class="carousel-caption d-md-block">
+              <h2>Adiquira nossos produtos</h5>
+                <p><span class="highlighter">por preços inbativeis</span></p>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#mainSlider" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#mainSlider" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+      <!-- Sobre a empresa -->
+      <section id="about-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h3 class="main-title text-center">Sobre a <span class="highlighter">Líder Foto</span></h3>
+            </div>
+            <div class="col-md-6">
+              <img class="img-fluid mx-auto about-img" src="img/lider-foto-loja.webp" alt="imagem da loja" title="líder-foto">
+            </div>
+            <div class="col-md-6 about-text">
+              <p>História da Lider Foto
+                atuamos há 27 anos no ramo fotográfico, com laboratório profissional
+                oferecendo a melhor qualidade que existe.</p>
+                <p>Em imagens, sendo papel fotográfico fugi film,não é feito em impressão, porém em revelador, sendo a melhor resolução de imagem que existe.</p>
+                <p>Oferecemos diversos tamanhos de imagens, atuamos também em outras linhas de produtos.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Serviços da empresa -->
+      <div id="services-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h3 class="main-title">Nossos <span class="highlighter">serviços</span></h3>
+            </div>
+            <div class="col-md-4 service-box service1">
+              <i class="bi bi-images"></i>
+              <h4>Revelação de <span class="highlighter">foto</span></h4>
+              <p>Realização de exames oftalmológicos para determinar a necessidade de óculos ou lentes de contato e para detectar problemas de visão.</p>
+            </div>
+            <div class="col-md-4 service-box service2">
+              <i class="bi bi-pc-display"></i>
+              <h4>Criação de <span class="highlighter">artes</span></h4>
+              <p>Venda e personalização de óculos de grau, incluindo a escolha de armações e lentes de acordo com a prescrição médica.</p>
+            </div>
+            <div class="col-md-4 service-box service3">
+              <i class="bi bi-camera"></i>
+              <h4>Foto <span class="highlighter">documento</span></h4>
+              <p>Venda de óculos de sol com proteção UV, com ou sem grau, de várias marcas e estilos.</p>
+            </div>
+            <div class="col-md-4 service-box service4">
+              <i class="fa-solid fa-border-all"></i>
+              <h4>Montagens e <span class="highlighter">lembranças</span></h4>
+              <p>Fornecimento de óculos de segurança para proteção ocular em ambientes de trabalho ou atividades específicas.</p>
+            </div>
+            <div class="col-md-4 service-box w-100 service5">
+              <i class="bi bi-usb-drive"></i>
+              <h4>Fitas negativas dvd e <span class="highlighter">pendrive</span></h4>
+              <p>Venda de óculos especializados para práticas desportivas, que oferecem proteção e performance.</p>
+            </div>
+            <div class="col-md-4 service-box service6">
+              <i class="fa-solid fa-file"></i>
+              <h4>Restauração de <span class="highlighter">fotos</span></h4>
+              <p>Ajuda na escolha de armações que complementam o estilo e a personalidade do cliente.</p>
+            </div>
+            <div class="col-md-4 service-box service6">
+              <i class="fa-solid fa-camera"></i>
+              <h4>Foto da <span class="highlighter">foto</span></h4>
+              <p>Ajuda na escolha de armações que complementam o estilo e a personalidade do cliente.</p>
+            </div>
+            <div class="col-md-4 service-box service6">
+              <i class="fa-solid fa-book"></i>
+              <h4>Encadernação de materiais do <span class="highlighter">dia a dia</span></h4>
+              <p>Ajuda na escolha de armações que complementam o estilo e a personalidade do cliente.</p>
+            </div>
+            <div class="col-md-4 service-box service6">
+              <i class="fa-regular fa-copy"></i>
+              <h4>xerox e <span class="highlighter">impressão</span></h4>
+              <p>Ajuda na escolha de armações que complementam o estilo e a personalidade do cliente.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Call to action-->
+      <div id="call-area">
+        <div class="container">
+          <div class="row">
+            <p>Venha já personalizar seus produtos conosco!</p>
+            <button class="main-btn" id="call-btn" href="https://wa.me/5511967293457?text=Bom%20dia,%20em%20que%20posso%20te%20ajudar?" 
+            trget="_blank">personalizar <i class="bi bi-cup-straw"></i></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </main>
+  <!--rodapé-->
+  <footer>
+    <div id="contact-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h3 class="main-title">Entre em contato <span class="highlighter">conosco</span></h3>
+          </div>
+          <div class="col-md-4 contact-box fone">
+            <i class="fas fa-phone"></i>
+            <p><span class="contact-title">Ligue para:</span>(11) 96729-3457</p>
+            <p><span class="contact-title">Horários:</span> 8:00 - 19:00</p>
+          </div>
+          <div class="col-md-4 contact-box email">
+            <i class="fas fa-envelope"></i>
+            <p><span class="contact-title">Envie um email:</span>liderfotopirituba@gmail.com</p>
+          </div>
+          <div class="col-md-4 contact-box local">
+            <i class="fas fa-map-marker-alt"></i>
+            <p><span class="contact-title">Venha tomar um café:</span>Endereço: Av. Benedito Andrade, 287 - Vila Pirituba, São Paulo - SP</p>
+          </div>
+          <div class="col-md-6" id="msg-box">
+            <p>Ou nos deixe uma mensagem:</p>
+          </div>
+          <div class="col-md-6" id="contact-form">
+            <form action="https://formsubmit.co/lucasstarttech@gmail.com" method="POST">
+              <input type="text" class="form-control" placeholder="E-mail" name="email" required>
+              <input type="text" class="form-control" placeholder="Assunto" name="subject" required>
+              <textarea class="form-control" rows="3" placeholder="Sua mensagem..." name="message"></textarea>
+              <input type="submit" class="main-btn">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="copy-area">
+      <div class="container">
+        <div class="row">
+          <div class="icons">
+            <a href="https://api.whatsapp.com/message/MCQM3NQ7KWUBL1?autoload=1&app_absent=0" target="_blank"><i class="bi bi-whatsapp btn"></i></a>
+            <a href="https://www.instagram.com/oticaarphy/?hl=pt" target="_blank"><i class="bi bi-instagram btn"></i></a>
+            <a href="https://web.facebook.com/oticaarphy/?_rdc=1&_rdr" target="_blank"><i class="bi bi-facebook"></i></a>
+          </div>
+          <div class="col-md-12">
+            <p>Todos os direitos autorais, ótica Arphy</a> &copy; 2024</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="js/scripts.js"></script>
+</body>
+</html>
