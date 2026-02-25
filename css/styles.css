@@ -122,19 +122,16 @@ height: 100vh;
 #mainSlider .carousel-caption h2 {
   font-size: 50px;
   margin-top: 100px;
-  text-align: left;
+  text-align: center;
   text-shadow: 2px 2px 2px #00000080;
-  margin-left: -50px;
-  width: 50%;
 }
 
 #mainSlider .carousel-caption p {
   font-size: 22px;
   font-weight: 300;
-  text-align: left;
+  text-align: center;
   margin-bottom: 100px;
   color: #fff;
-  margin-left: -40px;
 }
 
 .main-btn {
@@ -511,13 +508,17 @@ height: 100vh;
   font-style: italic;
   margin-top: 20px;
 }
+#call-area p{
+  font-weight: 300;
+}
 .icons {
   width: 100%;
 }
 .icons i {
-  margin-top: 100px;
   color: #fff;
+  font-size: 16px;
   background-color: #444;
+  text-align: center;
   border-radius: 100%;
 }
 .icons i:hover {
@@ -623,6 +624,7 @@ input.form-control {
   }
   #call-area p, #call-area #call-btn {
     font-size: 16px;
+    font-weight: 300;
   }
 }
 
